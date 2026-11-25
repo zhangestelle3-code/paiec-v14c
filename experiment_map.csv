@@ -1,0 +1,7 @@
+paper_location,result,entry_point,output_or_evidence,scope
+Main Section 4.1,Official 0.146273 and 0.199613,Codabench submissions 1018221 and 1029961,official_runs.json; frozen_submission.zip,Official platform; local runner does not recreate private scores
+Main Section 4.2 table,NoText / V14C / Length1D ALC,reproduce.py --mode full --db PATH,run_results/main_table.csv,Regenerate predictions using exact historical SQLite
+Main Section 4.2 intervals,Paired differences and conditional intervals,reproduce.py --mode audit,run_results/audit_results.json,Reaggregate packaged loss rows; does not regenerate predictions
+Per-budget detail,Budgets 0 1 3 7 15 31,reproduce.py --mode audit or full,run_results/budget_table.csv,Group/seed equal weighted; budgets weighted only in ALC
+Per-benchmark detail,Five historical benchmark collections,reproduce.py --mode audit or full,run_results/benchmark_table.csv,Separate diagnostic domain means
+Appendices A and development history,V19 V21 V22 and early prototype findings,Historical source reports only,../development_sources/ and original report,No complete executable reproduction for these branches is supplied in this release

@@ -1,0 +1,29 @@
+{
+  "expected_database_basename": "benchmark_data.sqlite",
+  "sha256": "0062957a600ce37717f6b0d2a2030423c79a9b89ef779029984a3f7bde6953a5",
+  "author_source_archive": "AI\u9884\u6d4b\u8bc4\u4f30\u5de5\u5177_\u53ef\u8fd0\u884c\u7248.zip",
+  "item_records": 12632,
+  "score_records": 571792,
+  "upstream_release": "Unresolved: exact source releases and original Excel compilation are not available in this release",
+  "availability": "Database is not included. Exact historical input is available to the author; an external reader currently cannot obtain it from this release.",
+  "scope": "Local diagnostic input only; not Codabench hidden evaluation data",
+  "exclusions": "Exclude MMDocRAG as a collection; retain literal binary outcomes; at least 80 distinct items per subject-benchmark group",
+  "remaining_groups": 221,
+  "acquisition_evaluation_split": "50/50 distinct-item split; one trial per acquired item; all binary response trials scored on disjoint evaluation items",
+  "seeds": {
+    "development": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "confirmation": [
+      606,
+      707,
+      808,
+      909,
+      1010
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "scope": "Official formative results; not local diagnostic scores; independently sampled runs",
+  "runs": [
+    {
+      "submission_id": 1018221,
+      "method": "V14C",
+      "recorded_ALC": 0.146273,
+      "status": "Finished (historical author record)",
+      "evidence": "Original submitted report Section 4.1 and author-identified downloaded artifact",
+      "score_evidence_status": "Recorded score; platform authentication not independently repeated; displayed group mean rounds to about 0.146274",
+      "artifact": "frozen_submission.zip",
+      "model_sha256": "700673cc9ea395fe72d839a52015440701823842cf57d51779428de93839b904",
+      "zip_sha256": "0d96fded229a73a25f82d35bee0c7d2f590144dae212bef7d0cfa6ab69e4e260"
+    },
+    {
+      "submission_id": 1029961,
+      "method": "V14C identical-code repeat",
+      "recorded_ALC": 0.199613,
+      "status": "Finished (supplied screenshot)",
+      "evidence": "Author-supplied platform screenshot and original report Section 4.1",
+      "score_evidence_status": "Screenshot corroborated in earlier review; authenticated platform not queried",
+      "artifact": "frozen_submission.zip",
+      "model_sha256": "700673cc9ea395fe72d839a52015440701823842cf57d51779428de93839b904",
+      "zip_sha256": "0d96fded229a73a25f82d35bee0c7d2f590144dae212bef7d0cfa6ab69e4e260"
+    }
+  ]
+}
