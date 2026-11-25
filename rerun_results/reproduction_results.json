@@ -1,0 +1,153 @@
+{
+  "scope": "Re-executed historical local diagnostics from recovered SQLite; not official hidden evaluation",
+  "database_sha256": "0062957a600ce37717f6b0d2a2030423c79a9b89ef779029984a3f7bde6953a5",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "model_sha256": "700673cc9ea395fe72d839a52015440701823842cf57d51779428de93839b904",
+  "length_model_sha256": "f18af335f00e4942a04476ad37a1ac81e34847373ce0d270fa10eea5bb36c98b",
+  "groups": 221,
+  "groups_by_benchmark": {
+    "matharena": 81,
+    "multi_swebench": 82,
+    "real_webagents": 26,
+    "researchcodebench": 31,
+    "swe_rebench": 1
+  },
+  "parity": {
+    "checks": 376,
+    "max_abs_error": 2.220446049250313e-16,
+    "nonzero_v14c": 54,
+    "nonzero_length": 98
+  },
+  "runs": {
+    "development": {
+      "rows": 1105,
+      "groups": 221,
+      "seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "means": {
+        "V14C": 0.20830964253297463,
+        "NoText": 0.208580666401712,
+        "Length1D": 0.20803011676977026
+      },
+      "comparisons": {
+        "NoText_minus_V14C": {
+          "difference": 0.0002710238687373681,
+          "group_bootstrap_95_percent_interval": [
+            0.00015503830415314142,
+            0.00039886910724903533
+          ],
+          "seed": 20261120,
+          "resamples": 5000
+        },
+        "Length1D_minus_V14C": {
+          "difference": -0.00027952576320436356,
+          "group_bootstrap_95_percent_interval": [
+            -0.0004131355542075339,
+            -0.0001520004661155087
+          ],
+          "seed": 20261120,
+          "resamples": 5000
+        }
+      },
+      "by_benchmark": {
+        "matharena": {
+          "V14C": 0.22662181893470112,
+          "NoText": 0.2272166926367044,
+          "Length1D": 0.22592406629399767
+        },
+        "multi_swebench": {
+          "V14C": 0.18275816027770847,
+          "NoText": 0.18279027627313835,
+          "Length1D": 0.18295246204723487
+        },
+        "real_webagents": {
+          "V14C": 0.20097427389853978,
+          "NoText": 0.20132029699882634,
+          "Length1D": 0.2002202186376651
+        },
+        "researchcodebench": {
+          "V14C": 0.23226317042726488,
+          "NoText": 0.23228533517082986,
+          "Length1D": 0.23221939298312802
+        },
+        "swe_rebench": {
+          "V14C": 0.26840511869726014,
+          "NoText": 0.26779940454273665,
+          "Length1D": 0.26817768137589504
+        }
+      },
+      "max_abs_difference_from_archive": 0.0
+    },
+    "confirmation": {
+      "rows": 1105,
+      "groups": 221,
+      "seeds": [
+        606,
+        707,
+        808,
+        909,
+        1010
+      ],
+      "means": {
+        "V14C": 0.20679077096601017,
+        "NoText": 0.20711663234715133,
+        "Length1D": 0.20648923367819763
+      },
+      "comparisons": {
+        "NoText_minus_V14C": {
+          "difference": 0.00032586138114114733,
+          "group_bootstrap_95_percent_interval": [
+            0.00020386944711898685,
+            0.00045929066737833337
+          ],
+          "seed": 20261120,
+          "resamples": 5000
+        },
+        "Length1D_minus_V14C": {
+          "difference": -0.00030153728781253937,
+          "group_bootstrap_95_percent_interval": [
+            -0.00044763128321333656,
+            -0.00015980348927668224
+          ],
+          "seed": 20261120,
+          "resamples": 5000
+        }
+      },
+      "by_benchmark": {
+        "matharena": {
+          "V14C": 0.22586345527062093,
+          "NoText": 0.22658329100462316,
+          "Length1D": 0.22511863558056822
+        },
+        "multi_swebench": {
+          "V14C": 0.17984419399570162,
+          "NoText": 0.17985207834523095,
+          "Length1D": 0.1800262842232338
+        },
+        "real_webagents": {
+          "V14C": 0.20258243523725483,
+          "NoText": 0.20315162657620542,
+          "Length1D": 0.20178533540084498
+        },
+        "researchcodebench": {
+          "V14C": 0.22939301194063402,
+          "NoText": 0.2293230410833482,
+          "Length1D": 0.22937560299288343
+        },
+        "swe_rebench": {
+          "V14C": 0.2802699125921395,
+          "NoText": 0.2807021884718923,
+          "Length1D": 0.280293441349127
+        }
+      },
+      "max_abs_difference_from_archive": 0.0
+    }
+  },
+  "elapsed_seconds": 27.284135884999955
+}
